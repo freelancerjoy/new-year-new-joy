@@ -44,19 +44,20 @@
     padding: 18px 23px;
     color: white;
     border-radius: 5px;
+    border: 0;
     background-color: #f15B22;
 }
 
 /* My Failures of prebious year Styles */
 .previous-year {
-    margin: 0 200px;
+    margin: 0 100px;
     display: flex;
     align-items: center;
+    padding: 130px 0;
 }
 .previous-text {
-    padding-right: 10%;
     text-align: left;
-    margin-left: 87px;
+    margin: 150px 20px 0 50px;
 }
 .previous-tittle {
     font-size: 40px;
@@ -81,4 +82,7 @@
     letter-spacing: 1px;
     text-align: left;
     margin: 10px 0;
+}
+.previous-text .previous-remarks i {
+    color: #16D887;
 }
