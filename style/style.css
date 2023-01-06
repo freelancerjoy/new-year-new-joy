@@ -18,7 +18,7 @@
 /* Banner Styles */
 .banner {
     align-items: center;
-    margin: 0 100px;
+    padding: 0 100px;
 }
 .banner-text{
     text-align: right;
@@ -50,10 +50,9 @@
 
 /* My Failures of prebious year Styles */
 .previous-year {
-    margin: 0 100px;
+    margin: 130px 100px;
     display: flex;
     align-items: center;
-    padding: 130px 0;
 }
 .previous-text {
     text-align: left;
@@ -85,4 +84,40 @@
 }
 .previous-text .previous-remarks i {
     color: #16D887;
+}
+
+/* MY plans Section Styles */
+.my-plans {
+    padding: 0 100px;
+}
+.my-plans h2 {
+    text-align: center;
+    margin-bottom: 50px
+}
+.plan-category {
+    display: flex;
+    justify-content: space-around;
+}
+.plan-category .web-development {
+    text-align: center;
+}
+.plan-category .java-script {
+    text-align: center;
+}
+.plan-category .smoking-habit {
+    text-align: center;
+}
+.plan-category .e-commerce {
+    text-align: center
+}
+.plan-category h3 {
+    font-size: 22px;
+    margin: 14px 0 10px 0;
+    font-weight: 700;
+    color: #151414;
+}
+.plan-category p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #737272;
 }
