@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #eee;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    display: f;
+}
+
+/* Banner Styles */
+.banner {
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-text{
+    text-align: right;
+    padding-top: 200px;
+}
+.banner-tittle {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    margin: 24px 0 32px 0;
+}
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    color: white;
+    border-radius: 5px;
+    background-color: #f15B22;
+}
+
+/* My Failures of prebious year Styles */
+.previous-year {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.previous-text {
+    padding-right: 10%;
+    text-align: left;
+    margin-left: 87px;
+}
+.previous-tittle {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #151414;
+}
+.previous-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    margin: 24px 0 16px 0;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.previous-remarks {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 10px 0;
+}
