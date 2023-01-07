@@ -96,7 +96,7 @@
 }
 .plan-category {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .plan-category .web-development {
     text-align: center;
@@ -120,4 +120,98 @@
     font-size: 18px;
     font-weight: 500;
     color: #737272;
+}
+
+/* Contact call now section styles */
+.contact {
+    background: linear-gradient(90deg, #F15B22 0%,  rgba(241 , 91, 34, 0) 100%);
+    background-image: url(../images/gradient2.png), url('../images/watch.png');
+    background-position: center;
+    background-size: cover;
+    margin: 130px 100px;
+    border-radius: 8px;
+    position: relative;
+}
+.contact-text {
+    padding: 60px 0 60px 64px;
+}
+.contact-tittle {
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+}
+.contact-btn {
+    color: #f15B22;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: white;
+    margin-top: 24px;
+    border-radius: 5px;
+
+}
+
+/* Foter styles */
+.footer {
+    background-color: #151414;
+    height: 280px;   
+    display:flex ;
+    gap: 400px;
+    padding: 100px 100px;
+    
+}
+.footer-tittle {
+    font-size: 38px;
+    color: #F8F8F8;
+    font-weight: 700;
+}
+.footer-subtittle {
+    color: #F8F8F8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+.social-media i {
+    background-color: #F8F8F8;
+    width: 50px;
+    height: 50pX;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    line-height: 50px;
+    margin: 0px 5px 0px 5px;
+}
+.social-media .fa-facebook-f {
+    color: rgb(59, 33, 228);
+}
+.social-media .fa-twitter {
+    color: #16D887;
+}
+.social-media .fa-youtube {
+    color: red;
+}
+
+/* Right side footer */
+.subscriber-tittle {
+    color: #F8F8F8;
+    font-size: 20px;
+    font-weight: 600;
+}
+.subscriber input {
+    margin: 25px 0 15px 0;
+    border: 1 px solid #F8F8F8;
+    background-color: #151414;
+    color: #F8F8F8;
+    padding: 20px 158px 20px 20px;
+    border-radius: 5px;
+}
+.subscribe-btn {
+    color: #F15B22 ;
+    background-color: #F8F8F8;
+    padding: 18px 30px;
+    font-size: 18px;
+    font-weight: 600;
+
 }
