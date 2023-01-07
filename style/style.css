@@ -112,6 +112,7 @@
     border: 0;
     border-radius: 5px;
     margin-top: 25px; 
+    border: 2px solid #F15B22;
 }
 /* About btn hover  */
 .about-btn:hover {
