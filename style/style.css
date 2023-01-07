@@ -47,6 +47,12 @@
     border: 0;
     background-color: #f15B22;
 }
+/* Contact btn hover */
+.btn-primary:hover {
+    color: #F15B22;
+    background-color: white;
+    border: 2px solid #F15B22;
+}
 
 /* About me secion Styles */
 .about-container {
@@ -106,6 +112,12 @@
     border: 0;
     border-radius: 5px;
     margin-top: 25px; 
+}
+/* About btn hover  */
+.about-btn:hover {
+    color: #F15B22;
+    background-color: white;
+    border: 2px solid #F15B22;
 }
 .about-person-img img {
     position: absolute;
@@ -232,7 +244,13 @@
     margin-top: 24px;
     border-radius: 5px;
     border: 0;
-
+    border: 2px solid white;
+}
+/* contact btn hover */
+.contact-btn:hover {
+    color: white;
+    background-color: #F15B22;
+    border: 2px solid white;
 }
 
 /* Foter styles Left Side text*/
@@ -285,13 +303,16 @@
     font-size: 20px;
     font-weight: 600;
 }
-.subscriber input {
+.subscriber input[type=text]{
     margin: 25px 0 15px 0;
-    border: 1 px solid #F8F8F8;
+    border-color: #F15B22;
     background-color: #151414;
     color: #F8F8F8;
     padding: 20px 158px 20px 20px;
     border-radius: 5px;
+}
+.subscriber input[type=text]:hover {
+    border-color: white;
 }
 .subscribe-btn {
     color: #F15B22 ;
@@ -301,4 +322,10 @@
     font-weight: 600;
     border: 0;
     border-radius: 5px;
+}
+/* Subscribe bt hover */
+.subscribe-btn:hover {
+    color: white;
+    background-color: #151414;
+    border: 2px solid white;
 }
