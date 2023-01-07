@@ -48,6 +48,66 @@
     background-color: #f15B22;
 }
 
+/* About me secion Styles */
+.about-me {
+    margin: 150px 100px;
+    display: flex;
+    gap: 50px;
+}
+.about-details-text {
+    display: flex;
+}
+.about-tittle {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.about-profession {
+    color: #F15B22;
+}
+.about-description {
+    font-size: 16px;
+    color: #151414;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 20px 0 15px 0px;
+}
+.about-details-text ul {
+    
+}
+.about-details-text ul li {
+    list-style: none;
+    margin: 20px 0px;
+    color: #444343;
+}
+.about-btn {
+    color: #F8F8F8;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F15B22;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.about-person-img {
+}
+.about-person-img img {
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 450px;
+}
+.about-image-layer {
+    width: 345px;
+    height: 450px;
+    background-color: white;
+    border: 10px solid #F15B22;
+    position:relative;
+    margin: 10px 10px;
+    padding-bottom: 5px;  
+}
+
 /* My Failures of prebious year Styles */
 .previous-year {
     margin: 130px 100px;
@@ -124,13 +184,13 @@
 
 /* Contact call now section styles */
 .contact {
-    background: linear-gradient(90deg, #F15B22 0%,  rgba(241 , 91, 34, 0) 100%);
-    background-image: url(../images/gradient2.png), url('../images/watch.png');
+    background: linear-gradient(90deg, #F15B22 0%,  rgba(241 , 91, 34, 0) 100%), url('../images/watch.png');
+    /* background-image: url(../images/gradient2.png), url('../images/watch.png'); */
     background-position: center;
     background-size: cover;
     margin: 130px 100px;
     border-radius: 8px;
-    position: relative;
+    /* position: relative; */
 }
 .contact-text {
     padding: 60px 0 60px 64px;
