@@ -49,13 +49,25 @@
 }
 
 /* About me secion Styles */
-.about-me {
-    margin: 150px 100px;
+.about-container {
+    margin: 90px 100px 130px 100px;
     display: flex;
-    gap: 50px;
+    gap: 120px;
+}
+.about-me-heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px;
+    color: #151414;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(218, 218, 218);
 }
 .about-details-text {
     display: flex;
+    gap: 30px;
 }
 .about-tittle {
     font-size: 40px;
@@ -73,7 +85,12 @@
     margin: 20px 0 15px 0px;
 }
 .about-details-text ul {
-    
+    margin-left: -37px;
+}
+.about-details-text ul i {
+    color: #F15B22;
+    font-size: 18px;
+    margin-right: 10px;
 }
 .about-details-text ul li {
     list-style: none;
@@ -88,24 +105,22 @@
     padding: 15px 20px;
     border: 0;
     border-radius: 5px;
-    margin-top: 25px;
-}
-.about-person-img {
+    margin-top: 25px; 
 }
 .about-person-img img {
     position: absolute;
     z-index: 1;
-    width: 350px;
-    height: 450px;
+    width: 330;
+    height: 440px;
+    margin-left: 5px;
 }
 .about-image-layer {
-    width: 345px;
-    height: 450px;
+    width: 300px;
+    height: 420px;
     background-color: white;
     border: 10px solid #F15B22;
     position:relative;
-    margin: 10px 10px;
-    padding-bottom: 5px;  
+    margin: 28px 21px 0px -25px;    
 }
 
 /* My Failures of prebious year Styles */
@@ -123,6 +138,10 @@
     font-weight: 700;
     line-height: 46px;
     color: #151414;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(218, 218, 218);
 }
 .previous-description {
     font-size: 16px;
@@ -152,7 +171,11 @@
 }
 .my-plans h2 {
     text-align: center;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(218, 218, 218);
 }
 .plan-category {
     display: flex;
@@ -185,11 +208,11 @@
 /* Contact call now section styles */
 .contact {
     background: linear-gradient(90deg, #F15B22 0%,  rgba(241 , 91, 34, 0) 100%), url('../images/watch.png');
-    /* background-image: url(../images/gradient2.png), url('../images/watch.png'); */
     background-position: center;
     background-size: cover;
     margin: 130px 100px;
     border-radius: 8px;
+    /* background-image: url(../images/gradient2.png), url('../images/watch.png'); */
     /* position: relative; */
 }
 .contact-text {
@@ -212,14 +235,13 @@
 
 }
 
-/* Foter styles */
+/* Foter styles Left Side text*/
 .footer {
     background-color: #151414;
     height: 280px;   
     display:flex ;
     gap: 400px;
     padding: 100px 100px;
-    
 }
 .footer-tittle {
     font-size: 38px;
@@ -233,22 +255,25 @@
     line-height: 26px;
     margin: 20px 0px;
 }
+.social-media a {
+    text-decoration: none;
+}
 .social-media i {
     background-color: #F8F8F8;
-    width: 50px;
-    height: 50pX;
+    width: 40px;
+    height: 40pX;
     border-radius: 50%;
     align-items: center;
     text-align: center;
-    font-size: 28px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 40px;
     margin: 0px 5px 0px 5px;
 }
 .social-media .fa-facebook-f {
-    color: rgb(59, 33, 228);
+    color: rgb(59, 65, 255);
 }
 .social-media .fa-twitter {
-    color: #16D887;
+    color: #07acff;
 }
 .social-media .fa-youtube {
     color: red;
@@ -276,5 +301,4 @@
     font-weight: 600;
     border: 0;
     border-radius: 5px;
-
 }
